@@ -1,0 +1,23 @@
+[
+  {
+    "id": "balanced",
+    "name": "Empyrean Shelter",
+    "price": 8,
+    "text": "Rarity: RARE\nEmpyrean Shelter\nViper Cap\nItem Level: 82\nQuality: 20\nImplicits: 0\n+150 to maximum Life\n95% increased Evasion Rating\n+80 to Evasion Rating\n+25 to Strength\n+25 to Dexterity\n+25 to Intelligence",
+    "currency": "exalted"
+  },
+  {
+    "id": "value",
+    "name": "Gale Shelter",
+    "price": 5,
+    "text": "Rarity: RARE\nGale Shelter\nViper Cap\nItem Level: 82\nQuality: 20\nImplicits: 0\n+130 to maximum Life\n85% increased Evasion Rating\n+80 to Evasion Rating\n+20 to Strength\n+20 to Dexterity\n+20 to Intelligence",
+    "currency": "exalted"
+  },
+  {
+    "id": "broken",
+    "name": "Hollow Shelter",
+    "price": 3,
+    "text": "Rarity: RARE\nHollow Shelter\nViper Cap\nItem Level: 82\nQuality: 20\nImplicits: 0\n+170 to maximum Life\n110% increased Evasion Rating\n+80 to Evasion Rating",
+    "currency": "exalted"
+  }
+]
