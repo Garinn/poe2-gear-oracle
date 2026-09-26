@@ -100,8 +100,11 @@ export class PobEvaluator implements BuildEvaluator {
       child.stderr.on("data", (b) => {
         err = (err + b).slice(-4000);
       });
-      child.on("close", (code) => {
+      child.on("close", (code, signal) => {
         try {
+          if (!out.includes("GEAR_ORACLE_JSON:")) {
+            throw Error(`PoB worker exited before returning output (code ${code}, signal ${signal}). ${err || out.slice(-2000)}`);
+          }
           const value = parseWorkerOutput(out);
           if (code !== 0) throw Error(`PoB exited ${code}: ${err}`);
           finish(undefined, value);
